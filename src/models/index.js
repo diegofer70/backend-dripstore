@@ -2,7 +2,7 @@ const Sequelize = require('sequelize');
 const config = require('../config/database');
 const ProductImage = require('./productImage');
 
-const sequelize = new Sequelize(config);
+const sequelize = new Sequelize('');
 
 const models = {
   Product,
